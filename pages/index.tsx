@@ -7,13 +7,13 @@ import styles from "../styles/Home.module.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
-  const [tese, setTese] = useState<number>(10)
+  const [tesse, setTesse] = useState<number>(10)
 
   useEffect(() => {
-    setTese(10)
-  }, [])
+    setTesse(10)
 
-  console.log("tese", tese)
+    console.log("tesse", tesse)
+  }, [tesse])
 
   return (
     <>
