@@ -1,18 +1,19 @@
-import { useEffect, useState } from "react";
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
+import { useEffect, useState } from "react"
+import Head from "next/head"
+import Image from "next/image"
+import { Inter } from "@next/font/google"
+import styles from "../styles/Home.module.css"
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
-  const [tese, setTese] = useState("5");
-  const value = "10";
+  const [tese, setTese] = useState("5")
+  const [another, setAnother] = useState()
+  const value = "10"
 
   useEffect(() => {
-    setTese(value);
-  }, []);
+    setTese(value)
+  }, [])
 
   return (
     <>
@@ -73,5 +74,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  );
+  )
 }
