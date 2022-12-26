@@ -9,8 +9,10 @@ const inter = Inter({ subsets: ["latin"] })
 export default function Home() {
   const [tesse, setTesse] = useState<number>(10)
 
+  const value = 10
+
   useEffect(() => {
-    setTesse(10)
+    setTesse(value)
 
     console.log("tesse", tesse)
   }, [tesse])
