@@ -1,5 +1,5 @@
 {
   "hooks": {
-    "pre-commit": "eslint 'pages/**' --fix"
+    "pre-commit": "lint-staged"
   }
 }
