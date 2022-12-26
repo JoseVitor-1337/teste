@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
   const [tese, setTese] = useState("5")
-  const [anotherOne, setAnother] = useState()
+  const [anotherTwo, setAnother] = useState()
   const value = "10"
 
   useEffect(() => {
