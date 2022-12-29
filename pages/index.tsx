@@ -13,9 +13,9 @@ export default function Home() {
 
   useEffect(() => {
     setTesse(value)
-
-    console.log("tesse", tesse)
   }, [tesse])
+
+  console.log("tesse", tesse)
 
   return (
     <>
